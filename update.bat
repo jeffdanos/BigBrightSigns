@@ -1,0 +1,1 @@
+git add -A && git commit && git push && gcloud config configurations activate bigbrightsigns && gcloud app deploy && dir
