@@ -1,0 +1,39 @@
+runtime: php55
+api_version: 1
+  
+skip_files:
+- ^\.git$
+- ^(.*/)?\.DS_Store$
+
+handlers:
+- url: /assets
+  static_dir: assets
+  
+- url: /getstarted-handler.php
+  script: getstarted-handler.php
+  
+- url: /thankyou.html
+  script: thankyou.html
+  
+- url: /error.html
+  script: error.html
+  
+- url: /robots.txt
+  script: robots.txt
+  
+- url: /humans.txt
+  script: humans.txt  
+  
+- url: /privacy.html
+  script: privacy.html
+  
+- url: /sitemap.txt
+  script: sitemap.txt
+  
+- url: /.htaccess
+  script: .htaccess
+  
+- url: /.*
+  script: index.html
+  
+
