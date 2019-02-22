@@ -8,32 +8,52 @@ skip_files:
 handlers:
 - url: /assets
   static_dir: assets
+  secure: always  
+
   
 - url: /getstarted-handler.php
   script: getstarted-handler.php
+  secure: always  
+
   
 - url: /thankyou.html
   script: thankyou.html
+  secure: always  
+
   
 - url: /error.html
   script: error.html
+  secure: always  
+
   
 - url: /robots.txt
   script: robots.txt
+  secure: always  
+
   
 - url: /humans.txt
   script: humans.txt  
+  secure: always  
+
   
 - url: /privacy.html
   script: privacy.html
+  secure: always  
+
   
 - url: /sitemap.txt
   script: sitemap.txt
+  secure: always  
+
   
 - url: /.htaccess
   script: .htaccess
+  secure: always  
+
   
 - url: /.*
   script: index.html
+  secure: always  
+
   
 
